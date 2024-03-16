@@ -1,0 +1,25 @@
+@import 'stylesheets/common';
+@import 'stylesheets/colors';
+
+.chord {
+    font-weight: bolder;
+    white-space: pre;
+    width: fit-content;
+
+    &-with_padding {
+        padding-right: $spacing-xs;
+    }
+
+    &-clickable {
+        cursor: pointer;
+        &:hover {
+            filter: drop-shadow(0 -2px 2px $text-hover-shadow);
+        }
+    }
+
+    &__absolute-mod {
+        position: absolute;
+        bottom: 0.25rem;
+    }
+}
+

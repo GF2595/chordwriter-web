@@ -1,0 +1,18 @@
+@import 'stylesheets/common.scss';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+
+    &__content {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: $spacing $spacing $spacing-xs $spacing;
+    }
+}
+

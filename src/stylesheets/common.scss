@@ -1,0 +1,9 @@
+@use 'sass:math';
+$spacing-unit: 8px;
+$spacing: $spacing-unit;
+$spacing-xs: math.div($spacing-unit, 2);
+$spacing-xxs: math.div($spacing-unit, 4);
+$spacing-lg: #{8px * 2};
+$spacing-xl: #{8px * 3};
+
+$left-line-offset: $spacing-lg
